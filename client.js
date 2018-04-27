@@ -1,7 +1,12 @@
 console.log('sourced')
 
+
 function setDate() {
-    console.log('heyyy')
+    const now = new Date();
+    const seconds = now.getSeconds();
+    console.log(seconds)
+
 }
 
 setInterval(setDate, 1000)
+setDate()
